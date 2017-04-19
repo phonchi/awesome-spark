@@ -8,7 +8,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 ## Contents
 
 - [Packages](#packages)
-  - [DataSource Connector](#dataSource-connector)
+  - [DataSource Connector](#datasource-connector)
   - [Language Bindings](#language-bindings)
   - [Notebooks and IDEs](#notebooks-and-ides)
   - [General Purpose Libraries](#general-purpose-libraries)
@@ -17,12 +17,15 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
   - [GIS](#gis)
   - [Time Series Analytics](#time-series-analytics)
   - [Graph Processing](#graph-processing)
+  - [Computer Vision](#computer-vision)
   - [Machine Learning Extension](#machine-learning-extension)
   - [Middleware](#middleware)
   - [Utilities](#utilities)
   - [Natural Language Processing](#natural-language-processing)
   - [Streaming](#streaming)
   - [Interfaces](#interfaces)
+
+- [Related Project](#related-project)
 
 - [Resources](#resources)
   - [Books](#books)
@@ -130,7 +133,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Apache Beam](https://beam.apache.org/) - Unified data processing engine supporting both batch and streaming applications. Apache Spark is one of the supported execution environments.
 * [Blaze](https://github.com/blaze/blaze) - Interface for querying larger than memory datasets using Pandas-like syntax. It supports both Spark `DataFrames` and `RDDs`.
 
-### Related Project
+## Related Project
 * [Apache Kudu](https://kudu.apache.org/) - A new addition to the open source Apache Hadoop ecosystem, Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
 * [Apache Parquet](https://github.com/apache/parquet-mr) -Parquet-MR contains the java implementation of the Parquet format. Parquet is a columnar storage format for Hadoop; it provides efficient storage and encoding of data. 
 * [Apache Avro](https://github.com/apache/avro) - Apache Avro™ is a data serialization system and data format.
