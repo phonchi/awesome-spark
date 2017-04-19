@@ -8,6 +8,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 ## Contents
 
 - [Packages](#packages)
+  - [DataSource Connector](#dataSource-connector)
   - [Language Bindings](#language-bindings)
   - [Notebooks and IDEs](#notebooks-and-ides)
   - [General Purpose Libraries](#general-purpose-libraries)
@@ -35,6 +36,11 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 
 ## Packages
+* Also refer to http://spark.apache.org/third-party-projects.html
+
+### DataSource Connector
+* [spark-avro](https://github.com/databricks/spark-avro) - A library for reading and writing Avro data from Spark SQL.
+* [Apache Spark - Apache HBase Connector](https://github.com/hortonworks-spark/shc) - A library to support Spark accessing HBase table as external data source or sink. With it, user can operate HBase with Spark-SQL on data frame level.
 
 ### Language Bindings
 
@@ -83,6 +89,9 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [GraphFrames](https://github.com/graphframes/graphframes) - Data frame based graph API.
 * [neo4j-spark-connector](https://github.com/neo4j-contrib/neo4j-spark-connector) - Bolt protocol based, Neo4j Connector with RDD, DataFrame and GraphX / GraphFrames support.
 
+### Computer Vision
+* [Thunder](https://github.com/thunder-project/thunder) - Thunder is an ecosystem of tools for the analysis of image and time series data in Python. It can be used locally, but also supports large-scale analysis through the distributed computing engine spark. 
+
 ### Machine Learning Extension
 
 * [dbscan-on-spark](https://github.com/irvingc/dbscan-on-spark) - Implementation of the DBSCAN clustering algorithm on top of Apache Spark by [irvingc](https://github.com/irvingc) and based on the paper from He, Yaobin, et al. [MR-DBSCAN: a scalable MapReduce-based DBSCAN algorithm for heavily skewed data](https://www.researchgate.net/profile/Yaobin_He/publication/260523383_MR-DBSCAN_a_scalable_MapReduce-based_DBSCAN_algorithm_for_heavily_skewed_data/links/0046353a1763ee2bdf000000.pdf).
@@ -93,6 +102,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [KeystoneML](http://keystone-ml.org/) - Type safe machine learning pipelines with RDDs.
 * [JPMML-Spark](https://github.com/jpmml/jpmml-spark) - PMML transformer library for Spark ML.
 * [Distributed Keras](https://github.com/cerndb/dist-keras) - Distributed deep learning framework with PySpark and Keras.
+* [Elephas](https://github.com/maxpumperla/elephas) - Elephas is an extension of Keras, which allows you to run distributed deep learning models at scale with Spark. 
 * [Sparkling Water](https://github.com/h2oai/sparkling-water) -  [H2O](http://www.h2o.ai/) interoperability layer.
 
 ### Middleware
@@ -119,6 +129,11 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 * [Apache Beam](https://beam.apache.org/) - Unified data processing engine supporting both batch and streaming applications. Apache Spark is one of the supported execution environments.
 * [Blaze](https://github.com/blaze/blaze) - Interface for querying larger than memory datasets using Pandas-like syntax. It supports both Spark `DataFrames` and `RDDs`.
+
+### Related Project
+* [Apache Kudu](https://kudu.apache.org/) - A new addition to the open source Apache Hadoop ecosystem, Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
+* [Apache Parquet](https://github.com/apache/parquet-mr) -Parquet-MR contains the java implementation of the Parquet format. Parquet is a columnar storage format for Hadoop; it provides efficient storage and encoding of data. 
+* [Apache Avro](https://github.com/apache/avro) - Apache Avro™ is a data serialization system and data format.
 
 ## Resources
 
