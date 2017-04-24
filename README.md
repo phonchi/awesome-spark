@@ -24,6 +24,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
   - [Natural Language Processing](#natural-language-processing)
   - [Streaming](#streaming)
   - [Interfaces](#interfaces)
+  - [Profiling](#profiling)
 
 - [Related Project](#related-project)
 
@@ -132,6 +133,10 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 * [Apache Beam](https://beam.apache.org/) - Unified data processing engine supporting both batch and streaming applications. Apache Spark is one of the supported execution environments.
 * [Blaze](https://github.com/blaze/blaze) - Interface for querying larger than memory datasets using Pandas-like syntax. It supports both Spark `DataFrames` and `RDDs`.
+
+### Profilings
+
+* [Memory Profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code.
 
 ## Related Project
 * [Apache Kudu](https://kudu.apache.org/) - A new addition to the open source Apache Hadoop ecosystem, Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
