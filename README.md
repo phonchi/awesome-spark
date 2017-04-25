@@ -12,7 +12,6 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
   - [Language Bindings](#language-bindings)
   - [Notebooks and IDEs](#notebooks-and-ides)
   - [General Purpose Libraries](#general-purpose-libraries)
-  - [SQL Data Sources](#sql-data-sources)
   - [Bioinformatics](#bioinformatics)
   - [GIS](#gis)
   - [Time Series Analytics](#time-series-analytics)
@@ -45,6 +44,12 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 ### DataSource Connector
 * [spark-avro](https://github.com/databricks/spark-avro) - A library for reading and writing Avro data from Spark SQL.
 * [Apache Spark - Apache HBase Connector](https://github.com/hortonworks-spark/shc) - A library to support Spark accessing HBase table as external data source or sink. With it, user can operate HBase with Spark-SQL on data frame level.
+* [Spark CSV](https://github.com/databricks/spark-csv) - CSV reader and writer (obsolete since Spark 2.0 [[SPARK-12833]](https://issues.apache.org/jira/browse/SPARK-12833)).
+* [Spark XML](https://github.com/databricks/spark-xml) - XML parser and writer.
+* [Spark-Mongodb](https://github.com/Stratio/Spark-MongoDB) - MongoDB reader and writer.
+* [Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector) - Cassandra support including data source and API and support for arbitrary queries.
+* [Spark Riak Connector](https://github.com/basho/spark-riak-connector) - Riak TS & Riak KV connector.
+* [Mongo-Spark](https://github.com/mongodb/mongo-spark) - Official MongoDB connector.
 
 ### Language Bindings
 
@@ -63,17 +68,6 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 ### General Purpose Libraries
 
 * [Succinct](http://succinct.cs.berkeley.edu/) - Support for efficient queries on compressed data.
-
-
-### SQL Data Sources
-
-* [Spark CSV](https://github.com/databricks/spark-csv) - CSV reader and writer (obsolete since Spark 2.0 [[SPARK-12833]](https://issues.apache.org/jira/browse/SPARK-12833)).
-* [Spark Avro](https://github.com/databricks/spark-avro) - [Apache Avro](https://avro.apache.org/) reader and writer.
-* [Spark XML](https://github.com/databricks/spark-xml) - XML parser and writer.
-* [Spark-Mongodb](https://github.com/Stratio/Spark-MongoDB) - MongoDB reader and writer.
-* [Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector) - Cassandra support including data source and API and support for arbitrary queries.
-* [Spark Riak Connector](https://github.com/basho/spark-riak-connector) - Riak TS & Riak KV connector.
-* [Mongo-Spark](https://github.com/mongodb/mongo-spark) - Official MongoDB connector.
 
 ### Bioinformatics
 
