@@ -21,7 +21,6 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
   - [Middleware](#middleware)
   - [Utilities](#utilities)
   - [Natural Language Processing](#natural-language-processing)
-  - [Streaming](#streaming)
   - [Interfaces](#interfaces)
   - [Profiling](#profiling)
 
@@ -50,6 +49,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector) - Cassandra support including data source and API and support for arbitrary queries.
 * [Spark Riak Connector](https://github.com/basho/spark-riak-connector) - Riak TS & Riak KV connector.
 * [Mongo-Spark](https://github.com/mongodb/mongo-spark) - Official MongoDB connector.
+* [Apache Bahir](https://bahir.apache.org/) - Collection of the streaming connectors excluded from Spark 2.0 (Akka, MQTT, Twitter. ZeroMQ).
 
 ### Language Bindings
 
@@ -120,10 +120,6 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 * [spark-corenlp](https://github.com/databricks/spark-corenlp) - DataFrame wrapper for [Stanford CoreNLP](https://stanfordnlp.github.io/CoreNLP/).
 
-### Streaming
-
-* [Apache Bahir](https://bahir.apache.org/) - Collection of the streaming connectors excluded from Spark 2.0 (Akka, MQTT, Twitter. ZeroMQ).
-
 ### Interfaces
 
 * [Apache Beam](https://beam.apache.org/) - Unified data processing engine supporting both batch and streaming applications. Apache Spark is one of the supported execution environments.
@@ -131,7 +127,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 ### Profilings
 
-* [Memory Profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code.
+* [Memory Profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code which can help to profiling pyspark.
 
 ## Related Project
 * [Apache Kudu](https://kudu.apache.org/) - A new addition to the open source Apache Hadoop ecosystem, Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
