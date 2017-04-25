@@ -94,20 +94,22 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 ### Machine Learning Extension
 
-* [dbscan-on-spark](https://github.com/irvingc/dbscan-on-spark) - Implementation of the DBSCAN clustering algorithm on top of Apache Spark by [irvingc](https://github.com/irvingc) and based on the paper from He, Yaobin, et al. [MR-DBSCAN: a scalable MapReduce-based DBSCAN algorithm for heavily skewed data](https://www.researchgate.net/profile/Yaobin_He/publication/260523383_MR-DBSCAN_a_scalable_MapReduce-based_DBSCAN_algorithm_for_heavily_skewed_data/links/0046353a1763ee2bdf000000.pdf).
-* [Spark DBSCAN](https://github.com/alitouka/spark_dbscan) - Another implementation of the DBSCAN clustering algorithm by [alitouka](https://github.com/alitouka).
 * [Apache SystemML](https://systemml.apache.org/) - Declarative machine learning framework on top of Spark.
-* [Mahout Spark Bindings](https://mahout.apache.org/users/sparkbindings/home.html) - linear algebra DSL and optimizer with R-like syntax.
+* [Mahout Spark Bindings](https://mahout.apache.org/users/sparkbindings/home.html) - linear algebra DSL and optimizer with R-like syntax. Originally on hadoop now supports spark.
 * [spark-sklearn](https://github.com/databricks/spark-sklearn) - Scikit-learn integration with distributed model training.
-* [KeystoneML](http://keystone-ml.org/) - Type safe machine learning pipelines with RDDs.
-* [JPMML-Spark](https://github.com/jpmml/jpmml-spark) - PMML transformer library for Spark ML.
+* [KeystoneML](https://github.com/amplab/keystone) - Another software framework, written in Scala, from the AMPLab designed to simplify the construction of large scale, end-to-end, machine learning pipelines with Apache Spark.
 * [Distributed Keras](https://github.com/cerndb/dist-keras) - Distributed deep learning framework with PySpark and Keras.
 * [Elephas](https://github.com/maxpumperla/elephas) - Elephas is an extension of Keras, which allows you to run distributed deep learning models at scale with Spark. 
-* [Sparkling Water](https://github.com/h2oai/sparkling-water) -  [H2O](http://www.h2o.ai/) interoperability layer.
+* [Sparkling Water](https://github.com/h2oai/sparkling-water) -  [H2O](http://www.h2o.ai/) interoperability layer.H2O scales statistics, machine learning, and math over Big Data.
+* [MXNet on Spark](https://github.com/dmlc/mxnet/tree/master/scala-package/spark) - MXNet Scala Package and brings deep learning to Spark. You can take advantage of both the flexible parallel training approaches and GPU support with MXNet, and the fast data processing flow with Spark
+* [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - By combining salient features from deep learning framework Caffe and big-data frameworks Apache Spark and Apache Hadoop, CaffeOnSpark enables distributed deep learning on a cluster of GPU and CPU servers.
+* [TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark) - Another tool by Yahoo that supports tensorflow.
+* [BigDL](https://github.com/intel-analytics/BigDL) - BigDL is a distributed deep learning library for Apache Spark by Intel.
+
 
 ### Middleware
 
-* [Livy](https://github.com/cloudera/livy) - REST server with extensive language support (Python, R, Scala), ability to maintain interactive sessions and object sharing.
+* [Livy](https://github.com/cloudera/livy) - REST server with extensive language support (Python, R, Scala), ability to maintain interactive sessions and object sharing.https://github.com/dmlc/mxnet/tree/master/scala-package/spark
 * [spark-jobserver](https://github.com/spark-jobserver/spark-jobserver) - Simple Spark as a Service which supports objects sharing using so called named objects. JVM only.
 * [Mist](https://github.com/Hydrospheredata/mist) - Service for exposing Spark analytical jobs and machine learning models as realtime, batch or reactive web services.
 
@@ -143,9 +145,13 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/) - Interesting compilation of notes by [Jacek Laskowski](https://github.com/jaceklaskowski). Focused on different aspects of Spark internals.
 * [Spark Gotchas](https://github.com/awesome-spark/spark-gotchas) - Subjective compilation of tips, tricks and common programming mistakes.
 * [Spark in Action](https://www.manning.com/books/spark-in-action) - New book in the Manning's "in action" family with +400 pages. Starts gently, step-by-step and covers large number of topics. Free excerpt on how to [setup Eclipse for Spark application development](http://freecontent.manning.com/how-to-start-developing-spark-applications-in-eclipse/) and how to bootstrap a new application using the provided Maven Archetype. You can find the accompanying GitHub repo [here](https://github.com/spark-in-action/first-edition).
+* [Apache Spark in 24 Hours, Sams Teach Yourself](https://www.amazon.com/Apache-Spark-Hours-Teach-Yourself/dp/0672338513/ref=as_li_ss_tl?s=books&ie=UTF8&qid=1484325855&sr=1-1&keywords=apache+spark+in+24+hours&linkCode=sl1&tag=matratsblo-20&linkId=2a8f9733bda37b66309efcded726ffd8) - Are you impatient? This book has been written for you!
+* [Spark: Big Data Cluster Computing in Production](https://www.amazon.com/Spark-Data-Cluster-Computing-Production/dp/1119254019/ref=as_li_ss_tl?s=english-books&ie=UTF8&qid=1484325979&sr=1-1&keywords=spark:+Big+Data+Cluster+Computing+in+Production&linkCode=sl1&tag=matratsblo-20&linkId=9126f54ac279119937a742af01871837) - If you are already a data engineer and want to learn more about production deployment for Spark apps, this book is a good start. You’ll learn how to monitor your Spark clusters, work with metrics, resource allocation, object serialization with Kryo, more. 
+* [High Performance Spark: Best Practices for Scaling and Optimizing Apache Spark](https://www.amazon.com/High-Performance-Spark-Practices-Optimizing/dp/1491943203/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=matratsblo-20&linkId=52f86ff4f5e2e0be6da42009cbe07d52) - Again written in part by Holden Karau, High Performance Spark focuses on data manipulation techniques using a range of spark libraries and technologies above and beyond core RDD manipulation. 
+
 
 ### Papers
-
+* Also refers to http://spark.apache.org/research.html
 * [Resilient Distributed Datasets: A Fault-Tolerant Abstraction for In-Memory Cluster Computing](https://people.csail.mit.edu/matei/papers/2012/nsdi_spark.pdf) - Paper introducing a core distributed memory abstraction.
 * [Spark SQL: Relational Data Processing in Spark](https://amplab.cs.berkeley.edu/wp-content/uploads/2015/03/SparkSQLSigmod2015.pdf) - Paper introducing relational underpinnings, code generation and Catalyst optimizer.
 
