@@ -55,7 +55,9 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 ### Notebooks and IDEs
 
 * [Apache Zeppelin](https://zeppelin.incubator.apache.org/) - Web-based notebook that enables interactive data analytics with plugable backends, integrated plotting, and extensive Spark support out-of-the-box.
+* [Apache Toree](https://github.com/apache/incubator-toree) - The main goal of the Toree is to provide the foundation for interactive applications to connect to and use Apache Spark.
 * [Spark Notebook](https://github.com/andypetrella/spark-notebook) - Scalable and stable Scala and Spark focused notebook bridging the gap between JVM and Data Scientists (incl. extendable, typesafe and reactive charts).
+* [Jupyter-Scala](https://github.com/alexarchambault/jupyter-scala) - Lightweight Scala kernel for Jupyter that have good support on spark
 * [sparkmagic](https://github.com/jupyter-incubator/sparkmagic) - [Jupyter](https://jupyter.org/) magics and kernels for working with remote Spark clusters, for interactively working with remote Spark clusters through [Livy](https://github.com/cloudera/livy), in Jupyter notebooks.
 
 ### General Purpose Libraries
