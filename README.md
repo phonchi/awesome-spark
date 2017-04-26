@@ -113,6 +113,8 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Livy](https://github.com/cloudera/livy) - REST server with extensive language support (Python, R, Scala), ability to maintain interactive sessions and object sharing.https://github.com/dmlc/mxnet/tree/master/scala-package/spark
 * [spark-jobserver](https://github.com/spark-jobserver/spark-jobserver) - Simple Spark as a Service which supports objects sharing using so called named objects. JVM only.
 * [Mist](https://github.com/Hydrospheredata/mist) - Service for exposing Spark analytical jobs and machine learning models as realtime, batch or reactive web services.
+* [flintrock](https://github.com/nchammas/flintrock) - A command-line tool for launching Apache Spark clusters on AWS EC2.
+
 
 ### Utilities
 
