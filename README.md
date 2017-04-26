@@ -23,6 +23,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
   - [Natural Language Processing](#natural-language-processing)
   - [Interfaces](#interfaces)
   - [Profiling](#profiling)
+  - [In Memory Layer](#in_memory_layer)
 
 - [Related Project](#related-project)
 
@@ -130,6 +131,12 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 ### Profilings
 
 * [Memory Profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code which can help to profiling pyspark.
+
+### In Memory Layer
+
+* [Alluxio](http://www.alluxio.org/) - Memory speed virtual distributed storage system that supports running Spark.
+* [Apache Ignite](https://ignite.apache.org/) - Apache Ignite is a high-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets that supports spark
+* [SnappyData](https://www.snappydata.io/) - SnappyData is a high performance in-memory data platform for mixed workload applications. Built on Apache Spark, SnappyData provides a unified programming model for streaming, transactions, machine learning and SQL Analytics in a single cluster. 
 
 ## Related Project
 * [Apache Kudu](https://kudu.apache.org/) - A new addition to the open source Apache Hadoop ecosystem, Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
