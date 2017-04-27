@@ -57,6 +57,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Flambo](https://github.com/yieldbot/flambo) - Clojure DSL.
 * [Mobius](https://github.com/Microsoft/Mobius) - C# bindings.
 * [sparklyr](https://github.com/rstudio/sparklyr) - An alternative R backend, using [`dplyr`](https://github.com/hadley/dplyr).
+* [eclairjs-node](https://github.com/EclairJS/eclairjs-node) - EclairJS Node provides Node.js language bindings for Apache Spark.
 
 ### Notebooks and IDEs
 
@@ -114,7 +115,10 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [spark-jobserver](https://github.com/spark-jobserver/spark-jobserver) - Simple Spark as a Service which supports objects sharing using so called named objects. JVM only.
 * [Mist](https://github.com/Hydrospheredata/mist) - Service for exposing Spark analytical jobs and machine learning models as realtime, batch or reactive web services.
 * [flintrock](https://github.com/nchammas/flintrock) - A command-line tool for launching Apache Spark clusters on AWS EC2.
+* [spark-openstack](https://github.com/ispras/spark-openstack) - Scripts to setup Spark cluster (any version) in any Openstack environment with optional useful tools.
 
+### Lambda Architecture
+* [Oryx 2](https://github.com/OryxProject/oryx) - Lambda architecture on Apache Spark, Apache Kafka for real-time large scale machine learning
 
 ### Utilities
 
@@ -140,13 +144,15 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Apache Ignite](https://ignite.apache.org/) - Apache Ignite is a high-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets that supports spark
 * [SnappyData](https://www.snappydata.io/) - SnappyData is a high performance in-memory data platform for mixed workload applications. Built on Apache Spark, SnappyData provides a unified programming model for streaming, transactions, machine learning and SQL Analytics in a single cluster. 
 
-## Related Project
+## Related DataBase Project
 * [Apache Kudu](https://kudu.apache.org/) - A new addition to the open source Apache Hadoop ecosystem, Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
 * [Apache Parquet](https://github.com/apache/parquet-mr) -Parquet-MR contains the java implementation of the Parquet format. Parquet is a columnar storage format for Hadoop; it provides efficient storage and encoding of data. 
 * [Apache Avro](https://github.com/apache/avro) - Apache Avro™ is a data serialization system and data format.
+* [FiloDB](https://github.com/filodb/FiloDB) - FiloDB is a new open-source distributed, versioned, and columnar analytical database designed for modern streaming workloads.
+* [BlinkDB](https://github.com/sameeragarwal/blinkdb) - BlinkDB is a large-scale data warehouse system built on Shark and Spark and is designed to be compatible with Apache Hive.
+
 
 ## Resources
-
 ### Books
 
 * [Learning Spark, Lightning-Fast Big Data Analysis](http://shop.oreilly.com/product/0636920028512.do) - Slightly outdated (Spark 1.3) introduction to Spark API. Good source of knowledge about basic concepts.
