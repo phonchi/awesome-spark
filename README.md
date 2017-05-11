@@ -137,9 +137,10 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Apache Beam](https://beam.apache.org/) - Unified data processing engine supporting both batch and streaming applications. Apache Spark is one of the supported execution environments.
 * [Blaze](https://github.com/blaze/blaze) - Interface for querying larger than memory datasets using Pandas-like syntax. It supports both Spark `DataFrames` and `RDDs`.
 
-### Profilings
+### Profiling
 
-* [Memory Profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code which can help to profiling pyspark.
+* [sparkMeasure](https://github.com/LucaCanali/sparkMeasure) - sparkMeasure is a tool for performance investigations of Apache Spark workloads.It enables interactive profiling based on Jupyter Notebook.
+
 
 ### In Memory Layer
 
