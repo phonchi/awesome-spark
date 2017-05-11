@@ -116,6 +116,9 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Mist](https://github.com/Hydrospheredata/mist) - Service for exposing Spark analytical jobs and machine learning models as realtime, batch or reactive web services.
 * [flintrock](https://github.com/nchammas/flintrock) - A command-line tool for launching Apache Spark clusters on AWS EC2.
 * [spark-openstack](https://github.com/ispras/spark-openstack) - Scripts to setup Spark cluster (any version) in any Openstack environment with optional useful tools.
+* [Apache Toree](https://github.com/apache/incubator-toree) - Toree provides an interface through Jupyter notebook that allows clients to interact with a Spark Cluster. Clients can send libraries and snippets of code that are interpreted and ran against a preconfigured Spark context.
+* [Apache Bahir](http://bahir.apache.org/) -Apache Bahir provides extensions to multiple distributed analytic platforms, extending their reach with a diversity of streaming connectors and SQL data sources. It suppoert both for Apache Spark and Apache Flink.
+
 
 ### Lambda Architecture
 * [Oryx 2](https://github.com/OryxProject/oryx) - Lambda architecture on Apache Spark, Apache Kafka for real-time large scale machine learning
