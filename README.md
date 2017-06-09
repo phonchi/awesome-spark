@@ -159,7 +159,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 ## Resources
 ### Books
-
+* [Spark: The Definitive Guide](http://shop.oreilly.com/product/0636920034957.do) - New book that covers spark 2.x!
 * [Learning Spark, Lightning-Fast Big Data Analysis](http://shop.oreilly.com/product/0636920028512.do) - Slightly outdated (Spark 1.3) introduction to Spark API. Good source of knowledge about basic concepts.
 * [Advanced Analytics with Spark](http://shop.oreilly.com/product/0636920035091.do) - Useful collection of Spark processing patterns. Accompanying GitHub repository: [sryza/aas](https://github.com/sryza/aas).
 * [Mastering Apache Spark](https://jaceklaskowski.gitbooks.io/mastering-apache-spark/) - Interesting compilation of notes by [Jacek Laskowski](https://github.com/jaceklaskowski). Focused on different aspects of Spark internals.
@@ -181,7 +181,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Big Data Analysis with Scala and Spark (Coursera)](https://www.coursera.org/learn/big-data-analysys) - Scala oriented introductory course. Part of [Functional Programming in Scala Specialization](https://www.coursera.org/specializations/scala).
 
 ### Workshops
-
+* [Spark Sumit](https://spark-summit.org/) - Since our inaugural event in 2013, thousands of developers, scientists, analysts, researchers and executives from around the globe have flocked to Spark Summit to better understand how big data, machine learning and data science can deliver new insights. 
 * [AMP Camp](http://ampcamp.berkeley.edu) - Periodical training event organized by the [UC Berkeley AMPLab](https://amplab.cs.berkeley.edu/). A source of useful exercise and recorded workshops covering different tools from the [Berkeley Data Analytics Stack](https://amplab.cs.berkeley.edu/software/).
 
 ### Projects Using Spark
