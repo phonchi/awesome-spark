@@ -13,8 +13,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
   - [Notebooks and IDEs](#notebooks-and-ides)
   - [General Purpose Libraries](#general-purpose-libraries)
   - [Bioinformatics](#bioinformatics)
-  - [GIS](#gis)
-  - [Time Series Analytics](#time-series-analytics)
+  - [Time Series Analytics and GIS](#time-series-analytics-and-gis)
   - [Graph Processing](#graph-processing)
   - [Computer Vision](#computer-vision)
   - [Machine Learning Extension](#machine-learning-extension)
@@ -66,6 +65,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Spark Notebook](https://github.com/andypetrella/spark-notebook) - Scalable and stable Scala and Spark focused notebook bridging the gap between JVM and Data Scientists (incl. extendable, typesafe and reactive charts).
 * [Jupyter-Scala](https://github.com/alexarchambault/jupyter-scala) - Lightweight Scala kernel for Jupyter that have good support on spark
 * [sparkmagic](https://github.com/jupyter-incubator/sparkmagic) - [Jupyter](https://jupyter.org/) magics and kernels for working with remote Spark clusters, for interactively working with remote Spark clusters through [Livy](https://github.com/cloudera/livy), in Jupyter notebooks.
+* [pixiedust](https://github.com/ibm-cds-labs/pixiedust) - Python Helper library for Spark IPython Notebooks, the best way to plot spark dataframe! (spark2.1 has some issue related to progress bar)
 
 ### General Purpose Libraries
 
@@ -76,13 +76,10 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [ADAM](https://github.com/bigdatagenomics/adam) - Set of tools designed to analyse genomics data.
 * [Hail](https://github.com/hail-is/hail) - Genetic analysis framework.
 
-### GIS
+### Time Series Analytics and GIS
 
 * [Magellan](https://github.com/harsha2010/magellan) - Geospatial analytics using Spark.
 * [GeoSpark](https://github.com/Sarwat/GeoSpark) - Cluster computing system for processing large-scale spatial data.
-
-### Time Series Analytics
-
 * [Spark-Timeseries](https://github.com/cloudera/spark-timeseries) - Scala / Java / Python library for interacting with time series data on Apache Spark.
 
 ### Graph Processing
@@ -90,12 +87,14 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Mazerunner](https://github.com/neo4j-contrib/neo4j-mazerunner) - Graph analytics platform on top of Neo4j and GraphX.
 * [GraphFrames](https://github.com/graphframes/graphframes) - Data frame based graph API.
 * [neo4j-spark-connector](https://github.com/neo4j-contrib/neo4j-spark-connector) - Bolt protocol based, Neo4j Connector with RDD, DataFrame and GraphX / GraphFrames support.
+* [SparklingGraph](https://sparkling-graph.github.io/) - Library extending GraphX features with multiple functionalities useful in graph analytics (measures, generators, link prediction etc.).
 
 ### Computer Vision
 * [Thunder](https://github.com/thunder-project/thunder) - Thunder is an ecosystem of tools for the analysis of image and time series data in Python. It can be used locally, but also supports large-scale analysis through the distributed computing engine spark. 
 
 ### Machine Learning Extension
 
+* [spark-deep-learning](https://github.com/databricks/spark-deep-learning)- Deep Learning Pipelines for Apache Spark by databricks
 * [Apache SystemML](https://systemml.apache.org/) - Declarative machine learning framework on top of Spark.
 * [Mahout Spark Bindings](https://mahout.apache.org/users/sparkbindings/home.html) - linear algebra DSL and optimizer with R-like syntax. Originally on hadoop now supports spark.
 * [spark-sklearn](https://github.com/databricks/spark-sklearn) - Scikit-learn integration with distributed model training.
@@ -107,7 +106,7 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) - By combining salient features from deep learning framework Caffe and big-data frameworks Apache Spark and Apache Hadoop, CaffeOnSpark enables distributed deep learning on a cluster of GPU and CPU servers.
 * [TensorFlowOnSpark](https://github.com/yahoo/TensorFlowOnSpark) - Another tool by Yahoo that supports tensorflow.
 * [BigDL](https://github.com/intel-analytics/BigDL) - BigDL is a distributed deep learning library for Apache Spark by Intel.
-
+* [ModelDB](https://mitdbg.github.io/modeldb/) - A system to manage machine learning models for spark.ml and scikit-learn.
 
 ### Middleware
 
@@ -127,6 +126,8 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 
 * [silex](https://github.com/willb/silex) - Collection of tools varying from ML extensions to additional RDD methods.
 * [sparkly](https://github.com/Tubular/sparkly) - Helpers & syntactic sugar for PySpark.
+* [pyspark-stubs](https://github.com/zero323/pyspark-stubs) - Static type annotations for PySpark.
+
 
 ### Natural Language Processing
 
@@ -137,16 +138,16 @@ A curated list of awesome [Apache Spark](https://spark.apache.org/) packages and
 * [Apache Beam](https://beam.apache.org/) - Unified data processing engine supporting both batch and streaming applications. Apache Spark is one of the supported execution environments.
 * [Blaze](https://github.com/blaze/blaze) - Interface for querying larger than memory datasets using Pandas-like syntax. It supports both Spark `DataFrames` and `RDDs`.
 
-### Profiling
+### Profiling and Management
 
 * [sparkMeasure](https://github.com/LucaCanali/sparkMeasure) - sparkMeasure is a tool for performance investigations of Apache Spark workloads.It enables interactive profiling based on Jupyter Notebook.
-
+* [dr. elephant](https://github.com/linkedin/dr-elephant) - Performance monitoring and tuning tool for Apache Hadoop and Apache Spark
 
 ### In Memory Layer
 
 * [Alluxio](http://www.alluxio.org/) - Memory speed virtual distributed storage system that supports running Spark.
 * [Apache Ignite](https://ignite.apache.org/) - Apache Ignite is a high-performance, integrated and distributed in-memory platform for computing and transacting on large-scale data sets that supports spark
-* [SnappyData](https://www.snappydata.io/) - SnappyData is a high performance in-memory data platform for mixed workload applications. Built on Apache Spark, SnappyData provides a unified programming model for streaming, transactions, machine learning and SQL Analytics in a single cluster. 
+* [SnappyData](https://www.snappydata.io/) - SnappyData is a high performance in-memory data platform for mixed workload applications. Built on Apache Spark, SnappyData provides a unified programming model for streaming, transactions, machine learning and SQL Analytics in a single cluster. (Does not officially support spark 2.0)
 
 ## Related DataBase Project
 * [Apache Kudu](https://kudu.apache.org/) - A new addition to the open source Apache Hadoop ecosystem, Apache Kudu completes Hadoop's storage layer to enable fast analytics on fast data.
